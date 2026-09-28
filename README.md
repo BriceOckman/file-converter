@@ -18,6 +18,17 @@ docs, or multi-page PDFs.
 
 ## Run it
 
+Easiest — one command, handles everything:
+
+```bash
+python3 start.py
+```
+
+That creates a virtual environment on first run, installs what's needed
+(only once), and opens the app. Afterwards it just opens the app.
+
+Manual setup, if you prefer:
+
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
